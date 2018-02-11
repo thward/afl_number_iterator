@@ -31,6 +31,10 @@ Test cases are automatically run as part of the maven build process.
 
 Once built the program can be run by executing NumberIterator.class
 
+```
+java -cp NumberIterator-0.0.1-SNAPSHOT.jar numberiterator.NumberIterator
+```
+
 The program provides a command line interface allowing the user to specify a sequence size. Each integer in the sequence is then compared to see if it is divisible by 3 and 5.
 
 To provide alternate divisors the DividesByController.class can be called directly.
